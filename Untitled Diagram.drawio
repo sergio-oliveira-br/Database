@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T12:20:14.798Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" etag="cMYqzX3VTMNsE67AyGQC" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T12:30:28.475Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" etag="7oiVZAVNrEad7qGGhSyR" version="22.1.17" type="github">
   <diagram name="Page-1" id="e_JMkv63ZfSiVQM9Ydst">
     <mxGraphModel dx="679" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,7 +19,7 @@
         <mxCell id="g2Mc58VrfWElOGzlkAhz-5" value="Availability" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="200" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="g2Mc58VrfWElOGzlkAhz-6" value="ISBN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="g2Mc58VrfWElOGzlkAhz-6" value="ISBN" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1">
           <mxGeometry x="590" y="200" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="g2Mc58VrfWElOGzlkAhz-7" value="Publisher_ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -40,6 +40,14 @@
         <mxCell id="g2Mc58VrfWElOGzlkAhz-13" value="PublisherAddress" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="390" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="g2Mc58VrfWElOGzlkAhz-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g2Mc58VrfWElOGzlkAhz-14" target="g2Mc58VrfWElOGzlkAhz-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="370" />
+              <mxPoint x="640" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="g2Mc58VrfWElOGzlkAhz-14" value="ISBN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="390" width="100" height="50" as="geometry" />
         </mxCell>
@@ -57,6 +65,15 @@
         </mxCell>
         <mxCell id="g2Mc58VrfWElOGzlkAhz-19" value="mem_join_date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="490" y="560" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Mc58VrfWElOGzlkAhz-21" value="Issue//Loan Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="40" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Mc58VrfWElOGzlkAhz-22" value="Due Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Mc58VrfWElOGzlkAhz-23" value="Return Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
