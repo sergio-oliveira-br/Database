@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T13:09:23.248Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" etag="88zXKpCZNdCjR32zQPjQ" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T13:55:08.296Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" etag="wvMGzpJxnPg7ZEd_RuJx" version="22.1.17" type="github">
   <diagram name="Page-1" id="e_JMkv63ZfSiVQM9Ydst">
     <mxGraphModel dx="820" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,8 +87,8 @@
         <mxCell id="g2Mc58VrfWElOGzlkAhz-24" value="ISBN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="560" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="g2Mc58VrfWElOGzlkAhz-26" value="The table is normalised according the 1NF, because each table contains all atomic data item, no repeating groups and designated primary key.&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="680" width="550" height="140" as="geometry" />
+        <mxCell id="g2Mc58VrfWElOGzlkAhz-26" value="The database is normalized based on 1NF, as each table contains all the items of atomic data, without repetition groups and a designated primary key.&lt;br&gt;&lt;br&gt;The database is normalized based on 2NF, as it does not include partial dependencies.&lt;br&gt;&lt;br&gt;3NF is in agreement with it because it does not have transitive dependencies.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="660" width="550" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
