@@ -1,9 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2024-01-09T13:56:13.127Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" etag="6SoHJerMTTNqK8gNCKnW" version="22.1.17" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-09T14:07:07.773Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15" etag="l8hvdpJspZEuguzQfod6" version="22.1.17" type="github">
   <diagram name="Page-1" id="e_JMkv63ZfSiVQM9Ydst">
     <mxGraphModel dx="820" dy="623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="g2Mc58VrfWElOGzlkAhz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g2Mc58VrfWElOGzlkAhz-29" target="g2Mc58VrfWElOGzlkAhz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="150" />
+              <mxPoint x="170" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="g2Mc58VrfWElOGzlkAhz-1" value="Book ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="90" y="200" width="100" height="50" as="geometry" />
         </mxCell>
@@ -51,6 +59,17 @@
         <mxCell id="g2Mc58VrfWElOGzlkAhz-14" value="ISBN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="390" width="100" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="g2Mc58VrfWElOGzlkAhz-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g2Mc58VrfWElOGzlkAhz-27" target="g2Mc58VrfWElOGzlkAhz-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="150" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="550" y="150" />
+              <mxPoint x="740" y="150" />
+              <mxPoint x="740" y="650" />
+              <mxPoint x="140" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="g2Mc58VrfWElOGzlkAhz-15" value="memb_ID" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=4" vertex="1" parent="1">
           <mxGeometry x="90" y="560" width="100" height="50" as="geometry" />
         </mxCell>
@@ -75,20 +94,17 @@
         <mxCell id="g2Mc58VrfWElOGzlkAhz-23" value="Return Date" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="40" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="g2Mc58VrfWElOGzlkAhz-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="g2Mc58VrfWElOGzlkAhz-24" target="g2Mc58VrfWElOGzlkAhz-6">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="680" y="370" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="640" y="405" />
-              <mxPoint x="660" y="405" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="g2Mc58VrfWElOGzlkAhz-24" value="ISBN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="560" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="g2Mc58VrfWElOGzlkAhz-26" value="The database is normalized based on 1NF, as each table contains all the items of atomic data, without repetition groups and a designated primary key.&lt;br&gt;&lt;br&gt;The database is normalized based on 2NF, as it does not include partial dependencies.&lt;br&gt;&lt;br&gt;3NF is in agreement with it because it does not have transitive dependencies.&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="90" y="660" width="550" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Mc58VrfWElOGzlkAhz-27" value="memb_ID" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="g2Mc58VrfWElOGzlkAhz-29" value="Book ID" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="40" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
